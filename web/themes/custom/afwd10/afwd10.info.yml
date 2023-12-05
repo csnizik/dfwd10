@@ -1,0 +1,22 @@
+name: 'AFWD10 Theme'
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - afwd10/base
+  - afwd10/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - afwd10/user
+  core/drupal.dropbutton:
+    - afwd10/dropbutton
+  core/drupal.dialog:
+    - afwd10/dialog
+  file/drupal.file:
+    - afwd10/file
+  core/drupal.progress:
+    - afwd10/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.1.6'
