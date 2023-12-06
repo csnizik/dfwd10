@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ced5a8508b70b70ec363cc5e5cbb4b5",
+    "content-hash": "c1116410957bd8f1c976a47bfc4d3770",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1911,6 +1911,76 @@
                 "source": "https://gitlab.com/drupalspoons/devel",
                 "issues": "https://gitlab.com/drupalspoons/devel/-/issues",
                 "slack": "https://drupal.slack.com/archives/C012WAW1MH6"
+            }
+        },
+        {
+            "name": "drupal/material_base",
+            "version": "3.0.0-beta1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/material_base.git",
+                "reference": "3.0.0-beta1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/material_base-3.0.0-beta1.zip",
+                "reference": "3.0.0-beta1",
+                "shasum": "91c7547c5cc239b1ce1a931d0e9825e972be622f"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "3.0.0-beta1",
+                    "datestamp": "1686403847",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Beta releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Yurtaev (iamdroid)",
+                    "homepage": "https://www.drupal.org/u/iamdroid",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "beloglazov91",
+                    "homepage": "https://www.drupal.org/user/3431497"
+                },
+                {
+                    "name": "branimir.juranic",
+                    "homepage": "https://www.drupal.org/user/3331091"
+                },
+                {
+                    "name": "iamdroid",
+                    "homepage": "https://www.drupal.org/user/892728"
+                },
+                {
+                    "name": "kalabro",
+                    "homepage": "https://www.drupal.org/user/1399638"
+                },
+                {
+                    "name": "pavel.bulat",
+                    "homepage": "https://www.drupal.org/user/3568596"
+                },
+                {
+                    "name": "Spleshka",
+                    "homepage": "https://www.drupal.org/user/810676"
+                }
+            ],
+            "description": "Base theme inspirited by Material Design concept.",
+            "homepage": "https://www.drupal.org/project/material_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/material_base",
+                "issues": "https://www.drupal.org/project/issues/material_base"
             }
         },
         {
@@ -10890,7 +10960,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "pantheon-upstreams/upstream-configuration": 20
+        "pantheon-upstreams/upstream-configuration": 20,
+        "drupal/material_base": 10
     },
     "prefer-stable": true,
     "prefer-lowest": false,
