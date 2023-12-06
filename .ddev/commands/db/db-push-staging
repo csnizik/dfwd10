@@ -1,0 +1,5 @@
+#!/bin/bash
+
+set -eu -o pipefail
+mysqldump db | gzip >/Users/christophersnizik/PantheonSites/afwd10/.ddev/.downloads/staging/db_push.sql.gz
+rsync -avz /Users/christophersnizik/PantheonSites/afwd10/.ddev/.downloads/staging/staging/db_push.sql.gz "${SSH_USERNAME}@{$SERVER_URL}:/tmp/afwd10/staging/db.sql.gz"

@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -eu -o pipefail
+pushd /var/www/html/.ddev/.downloads/staging >/dev/null
+rm -f files.tar.gz
+rsync -avz "${SSH_USERNAME}@{$SERVER_URL}:/tmp/afwd10/staging/files.tar.gz" .
+tar -xzf files.tar.gz -C files/

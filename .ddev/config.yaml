@@ -15,7 +15,10 @@ nfs_mount_enabled: false
 mutagen_enabled: false
 use_dns_when_possible: true
 composer_version: "2"
-web_environment: []
+web_environment: [
+  SERVER_URL=137.184.49.56
+  SSH_USERNAME=pablohoney
+]
 nodejs_version: "16"
 
 # Key features of ddev's config.yaml:

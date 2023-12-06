@@ -1,0 +1,4 @@
+#!/bin/bash
+
+set -eu -o pipefail
+rsync -az "${DDEV_FILES_DIR}/" "${SSH_USERNAME}@{$SERVER_URL}:/tmp/afwd10/staging/files.tar.gz/"
