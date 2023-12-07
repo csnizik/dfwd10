@@ -53,3 +53,6 @@ if (getenv('DRUPAL_ENV') === 'staging') {
     'driver' => 'mysql',
   ];
 }
+
+
+$settings['hash_salt'] = 'E3DGjFhgsaXBchm3tV7kVwb6nymBa7Hu7saG7AVMEbQYf6';
