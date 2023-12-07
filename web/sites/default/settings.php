@@ -46,5 +46,10 @@ if (getenv('DRUPAL_ENV') === 'staging') {
     'database' => 'staging_db',
     'username' => 'staging_user',
     'password' => 'pVNtsByMtCkR6tVsnStrquAx',
+    'prefix' => '',
+    'host' => 'localhost',
+    'port' => '3306',
+    'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+    'driver' => 'mysql',
   ];
 }
