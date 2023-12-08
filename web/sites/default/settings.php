@@ -91,7 +91,7 @@
 $databases['default']['default'] = [
   'database' => 'drupalprod',
   'username' => 'drupalprod',
-  'password' => 'drupalprod',
+  'password' => getenv('DB_PW'),
   'host' => 'localhost',
   'port' => '3306',
   'driver' => 'mysql',
