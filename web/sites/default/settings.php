@@ -88,7 +88,7 @@
  * ];
  * @endcode
  */
-$databases = [
+$databases['default']['default'] = [
   'database' => 'drupalprod',
   'username' => 'drupalprod',
   'password' => 'drupalprod',
